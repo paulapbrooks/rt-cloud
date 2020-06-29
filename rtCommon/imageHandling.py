@@ -243,7 +243,7 @@ def getTransform(target_orientation,dicom_orientation):
 
 def saveAsNiftiImage(dicomDataObject, fullNiftiFilename, cfg, reference):
     """
-    This function takes in a dicom data object written in bytess, what you expect
+    This function takes in a dicom data object written in bytes, what you expect
     the dicom file to be called (we will use the same name format for the nifti
     file), and the config file while will have (1) the axes transformation for the
     dicom file and (2) the header information from a reference scan.
